@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014247405592",
+    "project_id": "latihan-fcm-81aef",
+    "storage_bucket": "latihan-fcm-81aef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014247405592:android:b97038e9fef5543879eb6d",
+        "android_client_info": {
+          "package_name": "com.example.latihan_fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014247405592-nqfu11t6p6ta2iecd7tgvf0fvpee66nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW40Rb0OadpUIDFXQFTum1ay8mssjAb3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014247405592-nqfu11t6p6ta2iecd7tgvf0fvpee66nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
