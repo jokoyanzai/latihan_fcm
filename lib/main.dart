@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:pusher_beams/pusher_beams.dart';
 
-void main() {
+void main() async {
+  
+  WidgetsFlutterBinding.ensureInitialized();
+
+  const instanceID = '8411893c-d0f3-4478-a669-ad58d2a957f9';
+  await PusherBeams.instance.start(instanceID);
+  await PusherBeams.instance.addDeviceInterest('debug-hello');
   runApp(const MyApp());
 }
 
