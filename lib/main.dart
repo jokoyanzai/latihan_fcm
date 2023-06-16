@@ -8,7 +8,7 @@ void main() async {
 
   const instanceID = '8411893c-d0f3-4478-a669-ad58d2a957f9';
   await PusherBeams.instance.start(instanceID);
-  await PusherBeams.instance.addDeviceInterest('debug-hello');
+  await PusherBeams.instance.addDeviceInterest('debug-hello');  
   runApp(const MyApp());
 }
 
